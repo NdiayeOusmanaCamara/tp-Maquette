@@ -83,7 +83,7 @@ form h1{
   right: 0;
 }
 
-}
+
 
 .corps-formulaire{
   display:flex;
@@ -109,7 +109,7 @@ form h1{
   padding: 10px;
   border-radius: 3px;
   font-size: small;
-  width: 300px;
+  width: 400px;
   border-radius: 10px;
 }
 .groupe label{
@@ -122,10 +122,9 @@ a{
   text-decoration: none;
   display: flex;
 }
-.forgot {
+.box {
   display: flex;
-  margin-left: 200px;
-  margin-bottom: 10px;
+  justify-content: space-between;
   
 }
 
@@ -193,7 +192,7 @@ span::before{
   outline: none;
   cursor: pointer;
   transition: transform 0.5s;
-  width: 300px;
+  width: 400px;
 
 
 }
@@ -215,5 +214,5 @@ p{
 }
  .p-bas{
   display: flex;
-  padding-left: 10px;
+  justify-content:center;
  }
