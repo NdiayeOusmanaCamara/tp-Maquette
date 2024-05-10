@@ -1,0 +1,195 @@
+
+body{ 
+  /* margin: 0px;
+  padding: 0px; */
+  background-color: #f5f5f5f5;
+  position:absolute;
+  
+  font-weight: bold;
+  font-family: Ariel,sans serif;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 20%;
+  margin-left: 200px;
+  height: 500px;
+
+
+}
+.container{
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  width: 1050px;
+  margin-left: 500px;
+  height: 600px;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+
+  
+
+.left{
+  display: flex;
+  position: absolute;
+  background-color:white;
+  padding:60px ;
+  border-radius: 3px;
+  width: 500px;
+  /* height: 430px; */
+  border-radius: 15px;
+  display: flex;
+  margin: 20px;
+  margin-top: 0;
+
+  
+
+}
+.photo{
+  display: flex;
+  position: absolute;
+  margin-left: 650px;
+  width: 200px;
+  /* height: 900px; */
+  
+ 
+
+}
+form h1{
+  font-size: 20px;
+
+}
+
+
+
+.corps-formulaire{
+  display:flex;
+   flex-wrap: wrap;
+    margin-bottom: 0px;
+  padding-left: 0px;
+  width: 100%; 
+} 
+.groupe{
+  position: relative;
+  margin-top: 20px;
+  display:flex;
+  flex-direction:column;
+
+}
+.photo img {
+  height:632px;
+  padding-right: 10px;
+  display: flex;
+}
+.groupe input{
+  padding: 10px;
+  border-radius: 3px;
+  font-size: small;
+  width: 300px;
+  border-radius: 10px;
+}
+.groupe label{
+  font-size: over;
+}
+span{
+  margin: 20px 0;
+}
+a{
+  text-decoration: none;
+  display: flex;
+}
+#forget {
+  display: flex;
+  margin-left: 40px;
+  
+}
+
+/* ::after{
+    content: "";
+    position: absolute;
+    width: 45%;
+    height: 1px;
+    background-color: #000;
+}
+span::after{
+    right: 0;
+}
+span::before{
+    left: 0;
+} */
+
+.reseau{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.google{
+  /* border-radius: 3px; */
+  margin: 5px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+.google:hover{
+  background-color: #f5f5f5;
+}
+
+.google img{
+  width: 15px;
+  margin: 5px;
+}
+.apple{
+  border-radius: 3px;
+  margin: 5px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.5s ease-in;
+}
+.apple:hover{
+  background-color: #f5f5f5;
+}
+.apple img{
+  width: 15px;
+  margin: 5px;
+}
+.pied-formulaire button{
+  margin-top: 10px;
+  background-color: #3A5B22;
+  color: white;
+  font-size: 15px;
+  border:none;
+  padding: 10px ;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: transform 0.5s;
+  width: 300px;
+
+
+}
+.title{
+  padding: 0px;
+  
+}
+.pied-formulaire button:hover{
+    transform: scale(1.05);
+
+  }
+p{
+  font-size: normal;
+  
+}
+.checkbox{
+  display: flex;
+  font-size: small;
+}
+ .p-bas{
+  display: flex;
+  padding-left: 10px;
+ }
