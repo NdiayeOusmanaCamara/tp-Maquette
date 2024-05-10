@@ -60,8 +60,30 @@ form h1{
   font-size: 20px;
 
 }
+.separation{
+  text-align: center;
+  position: relative;
+  margin: 20px 0;
 
+}
+.separation::before,
+.separation::after{
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 45%;
+  height: 1px;
+  background-color: #ccc;
+}
+.separation::before{
+  left: 0;
+  
+}
+.separation::after{
+  right: 0;
+}
 
+}
 
 .corps-formulaire{
   display:flex;
@@ -75,6 +97,7 @@ form h1{
   margin-top: 20px;
   display:flex;
   flex-direction:column;
+
 
 }
 .photo img {
@@ -99,9 +122,10 @@ a{
   text-decoration: none;
   display: flex;
 }
-#forget {
+.forgot {
   display: flex;
-  margin-left: 40px;
+  margin-left: 200px;
+  margin-bottom: 10px;
   
 }
 

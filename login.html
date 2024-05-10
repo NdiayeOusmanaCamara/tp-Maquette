@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>formulaire de contact en HTML & CSS</title>
         <link rel="stylesheet" href="style.css">
-        <a href="index.html">Signup</a>
+        <script src="scripte.js"></script>
         
     
     </head>
@@ -14,32 +14,31 @@
       <div class="container">
         <div class="left">
         <form id="left">
-            <h1>Get Started Now</h1>
+            <div class="title">
+            <h1>Welcome back!</h1>
+            <p>Enter your Credentials to access your account</p>
+        </div>
                   <div class="groupe">
-                    <label for="Name">Name</label>
-                    <input type="text" id="name" placeholder="Enter your name">
-                  </div>
-                  <div class="groupe">
-                    <label for="email">Email adress</label>
+                    <label for="Email">Email address</label>
                     <input type="email" id="email" placeholder="Enter your email">
                   </div>
                  
                 
                 <div class="groupe">
-                    <label for="password">Password</label>
-                    <a type="checkbox"></a>
+                    <label for="password">password</label><a href="forgot" class="forgot">forgotpassword</a>
                     <input type="password" id="password" placeholder="Name">
+                    
                 </div>
                 <div class=checkbox>
-                  <input type="checkbox" id="myCheckbox">
-                  <p>I agree to the terms & policy</p>
-              </div>
+                    <input type="checkbox" id="myCheckbox">
+                    <p>Remember to 30 days</p>
+                </div>
             
             <div class="pied-formulaire">
-                <button>Signup</button>
+                <button>Login</button>
             </div>
             <div class="separation">
-            <span>Or</span>
+            <div type="separation">Or</div>
           </div>
             <div class="reseau">
               <button class="google">
@@ -48,7 +47,7 @@
               </button>
               <button class="apple">
                   <img src="apple.svg" alt="">
-                  <p>Sign in with Apple</p>
+                  <p> Sign in with Apple</p>
               </button>
           </div>
           <p class="p-bas">Don't have an account? <a href="sing-in.html">Sign in</a></p>
